@@ -1,21 +1,3 @@
-# does-money-buy-happiness-miniproject1
-This project addresses the question “does money buy happiness?” from the perspective of the global “happiness score” and its correlation to GDP per capita.
-
-```{r, warning = FALSE, message = FALSE}
-# Loading necessary R packages:
-library(tidyverse)
-library(readr)
-library(dplyr)
-library(ggplot2)
-library(corrplot)
-```
-
-```{r, echo = FALSE, warning = FALSE, message = FALSE}
-data <- read_csv("~/Desktop/STAT228/WHR_2023.csv")
-glimpse(data)
-```
-
-
 ## Introduction
 
 This project addresses the question "does money buy happiness?" from the perspective of the global “happiness score” and its correlation to GDP per capita. 
@@ -36,7 +18,19 @@ There are 9 CSV files in Kaggle.com, I combined them in one dataset. My dataset 
 
 The goal of this project is to test whether countries with higher GDP per capita tend to have higher happiness scores while also examining how the relationship between GDP per capita and happiness varies by region and continent.
 
+```{r, warning = FALSE, message = FALSE}
+# Loading necessary R packages:
+library(tidyverse)
+library(readr)
+library(dplyr)
+library(ggplot2)
+library(corrplot)
+```
 
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+data <- read_csv("~/Desktop/STAT228/WHR_2023.csv")
+glimpse(data)
+```
 
 ## Correlation Matrix
 
