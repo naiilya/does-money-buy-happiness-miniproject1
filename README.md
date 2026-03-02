@@ -28,7 +28,7 @@ library(corrplot)
 ```
 
 ```{r, echo = FALSE, warning = FALSE, message = FALSE}
-data <- read_csv("~/Desktop/STAT228/WHR_2023.csv")
+data <- read_csv("WHR_2023.csv")
 glimpse(data)
 ```
 
