@@ -15,7 +15,6 @@ data <- read_csv("~/Desktop/STAT228/WHR_2023.csv")
 glimpse(data)
 ```
 
-\newpage
 
 ## Introduction
 
@@ -37,7 +36,7 @@ There are 9 CSV files in Kaggle.com, I combined them in one dataset. My dataset 
 
 The goal of this project is to test whether countries with higher GDP per capita tend to have higher happiness scores while also examining how the relationship between GDP per capita and happiness varies by region and continent.
 
-\newpage
+
 
 ## Correlation Matrix
 
@@ -62,7 +61,7 @@ Based on the correlation matrix above, we can conclude that the happiness score 
 
 Let's explore the relationship between happiness score and GDP per capita in different regions.
 
-\newpage
+
 
 ## Scatterplot (Colored by Regions)
 
@@ -89,7 +88,7 @@ This scatterplot proves a positive correlation between Happiness Score and GDP p
 
 Now, let's explore the relationship between happiness score and GDP per capita in different continents.
 
-\newpage
+
 
 ## Scatterplot (Colored by Continents)
 
@@ -124,7 +123,7 @@ This relationship in this scatterplot is consistent with the first scatterplot a
 
 Higher GDP per capita generally aligns with higher happiness, as indicated by the regression line. Europe and the Americas cluster in the upper range, as these continents have the highest concentration of developed countries. Africa dominates the lower end, with lower GDP per capita and lower happiness levels. Many African countries face economic challenges and limited infrastructure, which may contribute to lower well-being. However, there are outliers in the Middle East, such as Saudi Arabia, a wealthy nation with vast oil reserves. Asia is more spread around the regression line, reflecting a mix of high-income nations like Japan and lower-income countries in South Asia.
 
-\newpage
+
 
 ## Boxplot
 
@@ -152,7 +151,7 @@ Latin America & Caribbean and Central & Eastern Europe have comparable median ha
 
 In contrast, Central & Eastern Europe experiences moderate happiness levels, but with greater variability, potentially influenced by lower GDP indicators due to the Soviet past and ongoing geopolitical conflicts. Countries like Czech Republic and Lithuania have seen economic growth and rising happiness levels, while Ukraine and Bulgaria face economic struggles and instability. The Soviet past and regional tensions influence happiness levels across Eastern Europe.
 
-\newpage
+
 
 ## Data Limitation
 
